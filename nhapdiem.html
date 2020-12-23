@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập điểm cho sinh viên</title>
+</head>
+<body>
+<script>
+    let vatly;
+    let hoahoc;
+    let sinhhoc;
+    vatly = parseInt(prompt('nhập điểm vậy lý:'));
+    hoahoc = +prompt('Nhập điểm hóa học:');
+    sinhhoc = parseInt(prompt('Nhập điểm sinh học:'));
+    let tongdiem = vatly +hoahoc +sinhhoc ;
+    let trungbinh = tongdiem/3
+    document.write('Tổng điểm của sinh viên:'+tongdiem);
+    document.write('<br/>');
+    document.write('Điểm trung bình của sinh viên:'+trungbinh);
+
+</script>
+</body>
+</html>
